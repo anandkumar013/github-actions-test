@@ -2,7 +2,7 @@ name: Actions workflow
 
 on: [push]
 
-jobs :
+jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
@@ -12,7 +12,7 @@ jobs :
        with: 
         who-to-greet: Anand
      - name: Log Greeting time
-       run: echo ${{steps.greet.outputs.time}}
+       run: echo "${{steps.greet.outputs.time}}""
 
 
 
