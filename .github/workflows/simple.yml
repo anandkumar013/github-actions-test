@@ -1,6 +1,12 @@
 name: shell commands
 
-on: [push]
+on: 
+  #[push]
+  schedule:
+    - cron: "0/5 * * * *"   
+    - cron: "0/6 * * * *"
+
+
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
