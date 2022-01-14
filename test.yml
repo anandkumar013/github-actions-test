@@ -1,12 +1,17 @@
-name: Anand
-lastName: kumar
-key:
-   key1: ak
-   key2: amj
-jsonObject:
-   k: v
-   k2: v2
-   k3: v3
-array:
-   -item1
-   -item2
+{
+  "name": "Anand",
+  "lastName": "kumar",
+  "key": {
+    "key1": "ak",
+    "key2": "amj"
+  },
+  "jsonObject": {
+    "k": "v",
+    "k2": "v2",
+    "k3": "v3"
+  },
+  "array": [
+    "item1",
+    "item2"
+  ]
+}
