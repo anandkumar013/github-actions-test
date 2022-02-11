@@ -4,9 +4,9 @@ on:
 # push:
 # pull_request:
 #  types: [opened,closed,reopened,assigned,]
-  schedule:
-    - cron: "0/5 * * * *"   
-    - cron: "0/6 * * * *"
+#  schedule:
+#    - cron: "0/5 * * * *"   
+#    - cron: "0/6 * * * *"
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
